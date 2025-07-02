@@ -1,0 +1,194 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #121214;
+    color: #e0e0ea;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  
+  /* Header styling */
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #6ea8ff;
+
+  }
+  
+  header p {
+    font-size: 1rem;
+  }
+  
+  /* Card container */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  /* Card styling */
+  .card {
+    background-color: #2a2a2e;
+  color: #e0e0ea;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  }
+  
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card h2 {
+    margin: 1rem 0 0.5rem;
+    color: #fff;
+  }
+  
+  .card p {
+    margin: 0 1rem 1rem;
+    color: #ccccd4;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    /* text-align: left; */
+  }  
+  
+  /* Modal styles */
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: #1c1c1e;
+    color: #f0f0f5;
+    border: 1px solid #3a3a3c;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+  }
+  
+  .modal-content img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+  }
+  
+  .modal-content h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: #90b4ff;
+
+  }
+  
+  .modal-content p {
+    font-size: 1rem;
+    color: #bbb;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }  
+  
+  /* Close button */
+  .close {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #444;
+  }
+  
+/* Character Info Modal Enhancements */
+.char-info {
+  text-align: left;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #e0e0ea;
+}
+
+.char-info p {
+  margin: 0.4rem 0;
+}
+
+.char-info strong {
+  display: inline-block;
+  width: 90px;
+}
+
+.char-info .dragon-block {
+  margin-top: 0.3rem;
+  line-height: 1.4;
+}
+
+.char-info-block {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.6rem;
+}
+
+.char-info-block strong {
+  min-width: 90px;
+}
+
+.char-info-block .info-text {
+  flex: 1;
+  white-space: pre-wrap;
+}
+
+.lightning {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 120px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.2;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.lightning-left {
+  left: 0;
+  background-image: url('images/lightning-left.svg');
+}
+
+.lightning-right {
+  right: 0;
+  background-image: url('images/lightning-right.svg');
+}
+

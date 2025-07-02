@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fourth Wing Characters</title>
+    <link rel="stylesheet" href="character-info.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Meet the Characters</h1>
+      <p>Click on a card to learn more about that character.</p>
+    </header>
+
+    <main class="cards">
+      <!-- Violet Sorrengail -->
+      <div class="card" onclick="openModal('violet')">
+        <img src="images/violet.jpg" alt="Violet Sorrengail" />
+        <h2>Violet Sorrengail</h2>
+        <p>
+          The stubborn, brilliant dragon <br />rider and heart of the story.
+        </p>
+      </div>
+
+      <!-- Xaden Riorson -->
+      <div class="card" onclick="openModal('xaden')">
+        <img src="images/xaden.jpg" alt="Xaden Riorson" />
+        <h2>Xaden Riorson</h2>
+        <p>
+          Strong, strategic, and fiercely <br />loyal to his cause—and to
+          Violet.
+        </p>
+      </div>
+
+      <!-- Rhiannon Matthias -->
+      <div class="card" onclick="openModal('rhiannon')">
+        <img src="images/rhiannon.jpg" alt="Rhiannon Matthias" />
+        <h2>Rhiannon Matthias</h2>
+        <p>
+          Violet’s best friend. Brave, smart, <br />and always ready to fight.
+        </p>
+      </div>
+
+      <!-- Liam Mairi -->
+      <div class="card" onclick="openModal('liam')">
+        <img src="images/liam.jpg" alt="Liam Mairi" />
+        <h2>Liam Mairi</h2>
+        <p>
+          Violet’s protector and friend. <br />
+          Loyal to the end.
+        </p>
+      </div>
+
+      <!-- Sloane Mairi -->
+      <div class="card" onclick="openModal('sloane')">
+        <img src="images/sloane.jpg" alt="Sloane Mairi" />
+        <h2>Sloane Mairi</h2>
+        <p>
+          Liam’s little sister, determined <br />
+          to survive and fight.
+        </p>
+      </div>
+
+      <!-- Mira Sorrengail -->
+      <div class="card" onclick="openModal('mira')">
+        <img src="images/mira.jpg" alt="Mira Sorrengail" />
+        <h2>Mira Sorrengail</h2>
+        <p>
+          Violet’s older sister. Protective,<br />
+          powerful, and proud.
+        </p>
+      </div>
+
+      <!-- Brennan Sorrengail -->
+      <div class="card" onclick="openModal('brennan')">
+        <img src="images/brennan.jpg" alt="Brennan Sorrengail" />
+        <h2>Brennan Sorrengail</h2>
+        <p>
+          Violet’s long-lost brother. A <br />
+          healer and rebel leader.
+        </p>
+      </div>
+
+      <!-- Ridoc Gamlyn -->
+      <div class="card" onclick="openModal('ridoc')">
+        <img src="images/ridoc.jpg" alt="Ridoc Gamlyn" />
+        <h2>Ridoc Gamlyn</h2>
+        <p>
+          Jokester of the group, but <br />
+          deadly when needed.
+        </p>
+      </div>
+
+      <!-- Sawyer Henrick -->
+      <div class="card" onclick="openModal('sawyer')">
+        <img src="images/sawyer.jpg" alt="Sawyer Henrick" />
+        <h2>Sawyer Henrick</h2>
+        <p>
+          Steady, loyal, and always <br />
+          has the group’s back.
+        </p>
+      </div>
+
+      <!-- Dain Aetos -->
+      <div class="card" onclick="openModal('dain')">
+        <img src="images/dain.jpg" alt="Dain Aetos" />
+        <h2>Dain Aetos</h2>
+        <p>
+          Violet’s former best friend. Their <br />
+          bond is tested and changed.
+        </p>
+      </div>
+
+      <!-- Jesinia Neilwart -->
+      <div class="card" onclick="openModal('jesinia')">
+        <img src="images/jesinia.jpg" alt="Jesinia Neilwart" />
+        <h2>Jesinia Neilwart</h2>
+        <p>
+          A brilliant scribe and researcher. <br />
+          Vital to Violet’s mission.
+        </p>
+      </div>
+
+      <!-- Imogen Cardulo -->
+      <div class="card" onclick="openModal('imogen')">
+        <img src="images/imogen.jpg" alt="Imogen Cardulo" />
+        <h2>Imogen Cardulo</h2>
+        <p>
+          Quiet, intense, and unwavering <br />
+          in her beliefs.
+        </p>
+      </div>
+
+      <!-- Bodhi Durran -->
+      <div class="card" onclick="openModal('bodhi')">
+        <img src="images/bodhi.jpg" alt="Bodhi Durran" />
+        <h2>Bodhi Durran</h2>
+        <p>
+          Dry-humored and loyal. <br />
+          A rebel with a plan.
+        </p>
+      </div>
+
+      <!-- Garrick Tavis -->
+      <div class="card" onclick="openModal('garrick')">
+        <img src="images/garrick.jpg" alt="Garrick Tavis" />
+        <h2>Garrick Tavis</h2>
+        <p>
+          Skilled and trustworthy. <br />
+          Often at Xaden’s side.
+        </p>
+      </div>
+
+      <!-- Aaric Graycastle -->
+      <div class="card" onclick="openModal('aaric')">
+        <img src="images/aaric.jpg" alt="Aaric Graycastle" />
+        <h2>Aaric Graycastle</h2>
+        <p>
+          A surprising ally and a key part of <br />
+          Violet’s fight in Onyx Storm.
+        </p>
+      </div>
+    </main>
+
+    <!-- Modal for character details -->
+    <div id="character-modal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modal-img" src="" alt="Character portrait" />
+        <h2 id="modal-name">Character Name</h2>
+        <p id="modal-desc">Short description here.</p>
+
+        <ul id="modal-info-list" class="char-info-list"></ul>
+      </div>
+    </div>
+
+    <!-- JS script at bottom -->
+    <script src="character-info.js"></script>
+  </body>
+</html>
