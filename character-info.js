@@ -1,7 +1,7 @@
 const characters = {
   violet: {
     name: "Violet Sorrengail",
-    img: "images/violet.jpg",
+    img: "images/Violet.png",
     desc: "Stubborn, intelligent dragon <br> rider and key rebel leader.",
     age: "20",
     quadrant: "Riders Quadrant",
@@ -35,7 +35,7 @@ const characters = {
   },
   xaden: {
     name: "Xaden Riorson",
-    img: "images/xaden.jpg",
+    img: "images/Xaden.png",
     desc: "Duke of Tyrrendor, lieutenant rider,<br> and Violet’s bonded partner.",
     age: "23",
     quadrant: "Riders Quadrant",
@@ -55,7 +55,7 @@ const characters = {
   },
   rhiannon: {
     name: "Rhiannon Matthias",
-    img: "images/rhiannon.jpg",
+    img: "images/Rhiannon.png",
     desc: "Violet’s courageous best friend and Flame Section leader.",
     age: "20",
     quadrant: "Riders Quadrant",
@@ -70,7 +70,7 @@ const characters = {
   },
   liam: {
     name: "Liam Mairi",
-    img: "images/liam.jpg",
+    img: "images/Liam.png",
     desc: "Violet’s childhood friend and steadfast red daggertail rider.",
     age: "20",
     quadrant: "Riders Quadrant",
@@ -85,7 +85,7 @@ const characters = {
   },
   sloane: {
     name: "Sloane Mairi",
-    img: "images/sloane.jpg",
+    img: "images/Sloane.png",
     desc: "Young, determined day-rider and Liam’s sister.",
     age: "19",
     quadrant: "Riders Quadrant",
@@ -100,7 +100,7 @@ const characters = {
   },
   mira: {
     name: "Mira Sorrengail",
-    img: "images/mira.jpg",
+    img: "images/Mira.png",
     desc: "Violet’s older sister, veteran rider and protector.",
     age: "23",
     quadrant: "Riders Quadrant",
@@ -115,7 +115,7 @@ const characters = {
   },
   brennan: {
     name: "Brennan Sorrengail",
-    img: "images/brennan.jpg",
+    img: "images/Brennan.png",
     desc: "Violet’s brother, rebel leader, and healer.",
     age: "Deceased (pre-Series)",
     quadrant: "Riders (former)",
@@ -130,7 +130,7 @@ const characters = {
   },
   ridoc: {
     name: "Ridoc Gamlyn",
-    img: "images/ridoc.jpg",
+    img: "images/Ridoc.png",
     desc: "Sarcastic, loyal frost wielder with his brown swordtail.",
     age: "20",
     quadrant: "Riders Quadrant",
@@ -145,7 +145,7 @@ const characters = {
   },
   sawyer: {
     name: "Sawyer Henrick",
-    img: "images/sawyer.jpg",
+    img: "images/Sawyer.png",
     desc: "Steadfast, red-swordtail rider skilled in metallurgy.",
     age: "21",
     quadrant: "Riders Quadrant",
@@ -160,7 +160,7 @@ const characters = {
   },
   dain: {
     name: "Dain Aetos",
-    img: "images/dain.jpg",
+    img: "images/Dain.png",
     desc: "Violet’s ex-friend whose memory-<br>reading signet shifts their bond.",
     age: "20",
     quadrant: "Riders Quadrant",
@@ -175,7 +175,7 @@ const characters = {
   },
   jesinia: {
     name: "Jesinia Neilwart",
-    img: "images/jesinia.jpg",
+    img: "images/Jesinia.png",
     desc: "Scribe-turned-rider researcher crucial to Violet’s mission.",
     age: "20",
     quadrant: "Scribe Quadrant (converted)",
@@ -190,7 +190,7 @@ const characters = {
   },
   imogen: {
     name: "Imogen Cardulo",
-    img: "images/imogen.jpg",
+    img: "images/Imogen.png",
     desc: "Quiet, intense rider and key member of Violet’s group.",
     age: "22",
     quadrant: "Riders Quadrant",
@@ -205,7 +205,7 @@ const characters = {
   },
   bodhi: {
     name: "Bodhi Durran",
-    img: "images/bodhi.jpg",
+    img: "images/Bodhi.png",
     desc: "Dry‑humored, loyal rebel planner among Xaden’s allies.",
     age: "22",
     quadrant: "Riders Quadrant",
@@ -220,7 +220,7 @@ const characters = {
   },
   garrick: {
     name: "Garrick Tavis",
-    img: "images/garrick.jpg",
+    img: "images/Garrick.png",
     desc: "Xaden’s childhood friend and a dependable rider.",
     age: "23",
     quadrant: "Riders Quadrant",
@@ -235,7 +235,7 @@ const characters = {
   },
   aaric: {
     name: "Aaric Graycastle (Cam Tauri)",
-    img: "images/aaric.jpg",
+    img: "images/Aaric.png",
     desc: "Royal first‑year who becomes a strategic ally of Violet.",
     age: "18",
     quadrant: "Riders Quadrant",

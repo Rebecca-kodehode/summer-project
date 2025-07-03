@@ -7,15 +7,37 @@
     <link rel="stylesheet" href="character-info.css" />
   </head>
   <body>
+    <img
+      src="images/lightning.png"
+      alt="Lightning"
+      class="lightning lightning-left"
+    />
+    <img
+      src="images/lightning.png"
+      alt="Lightning"
+      class="lightning lightning-right"
+    />
+
     <header>
-      <h1>Meet the Characters</h1>
-      <p>Click on a card to learn more about that character.</p>
+      <div class="header-content">
+        <img src="images/squad-patch.png" alt="Squad Patch" />
+        <div class="text-group">
+          <h1>Meet the Characters</h1>
+          <p>Click on a card to learn more about that character.</p>
+
+          <!-- Move buttons here -->
+          <div class="nav-buttons">
+            <a href="index.html" class="back-btn">Back to Main Page</a>
+            <a href="gallery.html" class="gallery-btn">Gallery</a>
+          </div>
+        </div>
+      </div>
     </header>
 
     <main class="cards">
       <!-- Violet Sorrengail -->
       <div class="card" onclick="openModal('violet')">
-        <img src="images/violet.jpg" alt="Violet Sorrengail" />
+        <img src="images/Violet.png" alt="Violet Sorrengail" />
         <h2>Violet Sorrengail</h2>
         <p>
           The stubborn, brilliant dragon <br />rider and heart of the story.
@@ -24,7 +46,7 @@
 
       <!-- Xaden Riorson -->
       <div class="card" onclick="openModal('xaden')">
-        <img src="images/xaden.jpg" alt="Xaden Riorson" />
+        <img src="images/Xaden.png" alt="Xaden Riorson" />
         <h2>Xaden Riorson</h2>
         <p>
           Strong, strategic, and fiercely <br />loyal to his cause—and to
@@ -34,7 +56,7 @@
 
       <!-- Rhiannon Matthias -->
       <div class="card" onclick="openModal('rhiannon')">
-        <img src="images/rhiannon.jpg" alt="Rhiannon Matthias" />
+        <img src="images/Rhiannon.png" alt="Rhiannon Matthias" />
         <h2>Rhiannon Matthias</h2>
         <p>
           Violet’s best friend. Brave, smart, <br />and always ready to fight.
@@ -43,7 +65,7 @@
 
       <!-- Liam Mairi -->
       <div class="card" onclick="openModal('liam')">
-        <img src="images/liam.jpg" alt="Liam Mairi" />
+        <img src="images/Liam.png" alt="Liam Mairi" />
         <h2>Liam Mairi</h2>
         <p>
           Violet’s protector and friend. <br />
@@ -53,7 +75,7 @@
 
       <!-- Sloane Mairi -->
       <div class="card" onclick="openModal('sloane')">
-        <img src="images/sloane.jpg" alt="Sloane Mairi" />
+        <img src="images/Sloane.png" alt="Sloane Mairi" />
         <h2>Sloane Mairi</h2>
         <p>
           Liam’s little sister, determined <br />
@@ -63,7 +85,7 @@
 
       <!-- Mira Sorrengail -->
       <div class="card" onclick="openModal('mira')">
-        <img src="images/mira.jpg" alt="Mira Sorrengail" />
+        <img src="images/Mira.png" alt="Mira Sorrengail" />
         <h2>Mira Sorrengail</h2>
         <p>
           Violet’s older sister. Protective,<br />
@@ -73,7 +95,7 @@
 
       <!-- Brennan Sorrengail -->
       <div class="card" onclick="openModal('brennan')">
-        <img src="images/brennan.jpg" alt="Brennan Sorrengail" />
+        <img src="images/Brennan.png" alt="Brennan Sorrengail" />
         <h2>Brennan Sorrengail</h2>
         <p>
           Violet’s long-lost brother. A <br />
@@ -83,7 +105,7 @@
 
       <!-- Ridoc Gamlyn -->
       <div class="card" onclick="openModal('ridoc')">
-        <img src="images/ridoc.jpg" alt="Ridoc Gamlyn" />
+        <img src="images/Ridoc.png" alt="Ridoc Gamlyn" />
         <h2>Ridoc Gamlyn</h2>
         <p>
           Jokester of the group, but <br />
@@ -93,7 +115,7 @@
 
       <!-- Sawyer Henrick -->
       <div class="card" onclick="openModal('sawyer')">
-        <img src="images/sawyer.jpg" alt="Sawyer Henrick" />
+        <img src="images/Sawyer.png" alt="Sawyer Henrick" />
         <h2>Sawyer Henrick</h2>
         <p>
           Steady, loyal, and always <br />
@@ -103,7 +125,7 @@
 
       <!-- Dain Aetos -->
       <div class="card" onclick="openModal('dain')">
-        <img src="images/dain.jpg" alt="Dain Aetos" />
+        <img src="images/Dain.png" alt="Dain Aetos" />
         <h2>Dain Aetos</h2>
         <p>
           Violet’s former best friend. Their <br />
@@ -113,7 +135,7 @@
 
       <!-- Jesinia Neilwart -->
       <div class="card" onclick="openModal('jesinia')">
-        <img src="images/jesinia.jpg" alt="Jesinia Neilwart" />
+        <img src="images/Jesinia.png" alt="Jesinia Neilwart" />
         <h2>Jesinia Neilwart</h2>
         <p>
           A brilliant scribe and researcher. <br />
@@ -123,7 +145,7 @@
 
       <!-- Imogen Cardulo -->
       <div class="card" onclick="openModal('imogen')">
-        <img src="images/imogen.jpg" alt="Imogen Cardulo" />
+        <img src="images/Imogen.png" alt="Imogen Cardulo" />
         <h2>Imogen Cardulo</h2>
         <p>
           Quiet, intense, and unwavering <br />
@@ -133,7 +155,7 @@
 
       <!-- Bodhi Durran -->
       <div class="card" onclick="openModal('bodhi')">
-        <img src="images/bodhi.jpg" alt="Bodhi Durran" />
+        <img src="images/Bodhi.png" alt="Bodhi Durran" />
         <h2>Bodhi Durran</h2>
         <p>
           Dry-humored and loyal. <br />
@@ -143,7 +165,7 @@
 
       <!-- Garrick Tavis -->
       <div class="card" onclick="openModal('garrick')">
-        <img src="images/garrick.jpg" alt="Garrick Tavis" />
+        <img src="images/Garrick.png" alt="Garrick Tavis" />
         <h2>Garrick Tavis</h2>
         <p>
           Skilled and trustworthy. <br />
@@ -153,7 +175,7 @@
 
       <!-- Aaric Graycastle -->
       <div class="card" onclick="openModal('aaric')">
-        <img src="images/aaric.jpg" alt="Aaric Graycastle" />
+        <img src="images/Aaric.png" alt="Aaric Graycastle" />
         <h2>Aaric Graycastle</h2>
         <p>
           A surprising ally and a key part of <br />
